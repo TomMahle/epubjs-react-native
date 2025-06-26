@@ -7170,10 +7170,10 @@ react-native-gesture-handler@^2.12.0:
     invariant "^2.2.4"
     prop-types "^15.7.2"
 
-react-native-webview@13.11.1:
-  version "13.11.1"
-  resolved "https://registry.yarnpkg.com/react-native-webview/-/react-native-webview-13.11.1.tgz#833c4e7bb1a6a8c8548c3320ac5c05a4c228acd9"
-  integrity sha512-6RVwqOJmNBqlYQg87ev3P7OMlgbf6s/u7VtdPhwa8yxDhXDbGXDDdEjtGtUhqGhe5X8QvWEMkOIDbDNQusdlMQ==
+react-native-webview@13.15.0:
+  version "13.15.0"
+  resolved "https://registry.yarnpkg.com/react-native-webview/-/react-native-webview-13.15.0.tgz#b6d2f8d8dd65897db76659ddd8198d2c74ec5a79"
+  integrity sha512-Vzjgy8mmxa/JO6l5KZrsTC7YemSdq+qB01diA0FqjUTaWGAGwuykpJ73MDj3+mzBSlaDxAEugHzTtkUQkQEQeQ==
   dependencies:
     escape-string-regexp "^4.0.0"
     invariant "2.2.4"
