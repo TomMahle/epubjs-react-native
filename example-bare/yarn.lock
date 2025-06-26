@@ -846,7 +846,7 @@
   resolved "https://registry.yarnpkg.com/@epubjs-react-native/core/-/core-1.4.5.tgz#06f6f5d4f5400b6c95f76a7607e6b67257ac2d63"
   integrity sha512-Tmt3Z/82/bI6Cb+ao6qCbouuKmk4Ahy0SAHgEY88xIRdN0XlpN/7dfJ/n+XrNBhzjCtFnJW0uqA5htsFyo2c3Q==
 
-"@epubjs-react-native/file-system@1.1.4":
+"@epubjs-react-native/file-system@latest":
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@epubjs-react-native/file-system/-/file-system-1.1.4.tgz#83e62c4ffab6f92fec39e7ab89199ff796272e94"
   integrity sha512-hk0Qbt3KrQsHpeHVtIrM4sKEnlvIFlL3VOoFD7pdT8iZorL5666yU10FKvO6MIb963aa7S1EimKrdeXr6uiLtQ==
@@ -4760,13 +4760,13 @@ react-native-gesture-handler@~2.20.2:
     prop-types "^15.7.2"
 
 react-native-paper@^5.12.3:
-  version "5.12.5"
-  resolved "https://registry.yarnpkg.com/react-native-paper/-/react-native-paper-5.12.5.tgz#e255c47f7bf2deb2dd90eaf3831473ef33e400b8"
-  integrity sha512-Qpqd1g9PClmjGj/Dkr1htAwt8cTZ3SCHVmhttxRuG/QML7KzHm5ArLNgR7vz5dW1EwJqTmyl/3gd6gnrtw90mw==
+  version "5.14.5"
+  resolved "https://registry.yarnpkg.com/react-native-paper/-/react-native-paper-5.14.5.tgz#7995a2f8171c8355c1cb55c81a6d2074a7dd5abb"
+  integrity sha512-eaIH5bUQjJ/mYm4AkI6caaiyc7BcHDwX6CqNDi6RIxfxfWxROsHpll1oBuwn/cFvknvA8uEAkqLk/vzVihI3AQ==
   dependencies:
     "@callstack/react-theme-provider" "^3.0.9"
     color "^3.1.2"
-    use-latest-callback "^0.1.5"
+    use-latest-callback "^0.2.3"
 
 react-native-reanimated@~3.16.1:
   version "3.16.3"
@@ -5700,15 +5700,15 @@ update-browserslist-db@^1.1.1:
     escalade "^3.2.0"
     picocolors "^1.1.0"
 
-use-latest-callback@^0.1.5:
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/use-latest-callback/-/use-latest-callback-0.1.11.tgz#e073fcbba792cc95ac661d96bc13b6041956cfe1"
-  integrity sha512-8nhb73STSD/z3GTHklvNjL8F9wMOo0bj0AFnulpIYuFTm6aQlT3ZcNbXF2YurKImIY8+kpSFSDHZZyQmurGrhw==
-
 use-latest-callback@^0.2.1:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/use-latest-callback/-/use-latest-callback-0.2.3.tgz#2d644d3063040b9bc2d4c55bb525a13ae3de9e16"
   integrity sha512-7vI3fBuyRcP91pazVboc4qu+6ZqM8izPWX9k7cRnT8hbD5svslcknsh3S9BUhaK11OmgTV4oWZZVSeQAiV53SQ==
+
+use-latest-callback@^0.2.3:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/use-latest-callback/-/use-latest-callback-0.2.4.tgz#35c0f028f85a3f4cf025b06011110e87cc18f57e"
+  integrity sha512-LS2s2n1usUUnDq4oVh1ca6JFX9uSqUncTfAm44WMg0v6TxL7POUTk1B044NH8TeLkFbNajIsgDHcgNpNzZucdg==
 
 usehooks-ts@^3.1.0:
   version "3.1.0"
