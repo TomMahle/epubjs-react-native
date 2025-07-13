@@ -14,7 +14,18 @@ export function InitialLocation() {
           width={width}
           height={height * 0.9}
           fileSystem={useFileSystem}
-          initialLocation="introduction_001.xhtml"
+          initialLocation="toc.xhtml"
+          injectedJavascript={
+            // TODO: running below in console logs 'hoo boy' every 3 seconds, but not working here.
+            /* js */ `setTimeout(() => {
+            rendition.getContents().forEach(x => {
+              const rootDoc = x.root().parentNode
+              const script = rootDoc.createElement('script');
+              script.innerHTML='setInterval(() => console.log("hoo boy"), 3000)'
+              rootDoc.head.appendChild(script);
+            })
+          })`
+          }
         />
       </SafeAreaView>
     </ReaderProvider>

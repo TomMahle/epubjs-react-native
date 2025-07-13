@@ -1,6 +1,6 @@
 import * as webViewJavaScriptFunctions from './utils/webViewInjectFunctions';
 
-export default `
+export default /* html */ `
 <!DOCTYPE html>
   <html>
   <head>

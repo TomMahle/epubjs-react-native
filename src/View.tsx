@@ -497,6 +497,7 @@ export function View({
           backgroundColor: theme.body.background,
           height,
         }}
+        webviewDebuggingEnabled
       />
     </GestureHandler>
   );
